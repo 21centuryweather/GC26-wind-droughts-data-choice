@@ -1,0 +1,3 @@
+[darglint]
+ignore=DAR103,DAR101,DAR201
+strictness=short

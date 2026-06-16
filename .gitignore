@@ -1,0 +1,43 @@
+# Private local files
+*.csv
+*.log
+*.pickle
+*.parquet
+*.xlsx
+# *.ipynb
+.idea/
+*.iml
+*.pyc
+*.nc
+*.pkl
+
+local_classifier/
+
+# Mac/OSX
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+
+
+# personal
+container/vaetrain-bkp.ipynb
+
+container/vaetrain-bkp.ipynb
+container/inference.ipynb

@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 130
+skip-string-normalization = true
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 3
+line_length = 130
+lines_after_imports = 2
+profile = "black"
+
+[tool.flake8]
+max-line-length = 130
+max-complexity = 10
