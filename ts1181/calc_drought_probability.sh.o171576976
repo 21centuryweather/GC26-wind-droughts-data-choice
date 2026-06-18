@@ -1,0 +1,29 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+INFO     [client] Starting Dask client setup (workload_type=io | environment=script)
+INFO     [resources] Resources detected via PBS (total_cores=16 | total_mem_gib=64.0)
+INFO     [client] Temp/spill dir: /jobfs/171576976.gadi-pbs/dask-3639629
+INFO     [client] Workers: 1 | threads/worker: 8 | processes: False
+INFO     [client] Mem: total ~64.0 GiB | usable ~62.0 GiB | per-worker ~62.0 GiB
+INFO     [client] Compression: spill=auto | comm=False
+INFO     [client] Dask client ready
+[setup_dask_client] Configuration summary
+temp/spill dir: /jobfs/171576976.gadi-pbs/dask-3639629
+Workers: 1 | threads/worker: 8 | processes: False
+Memory: total ~64.0 GiB | usable ~62.0 GiB | per-worker ~62.0 GiB
+Compression: spill=auto | comm=False
+got data in 3.5 min
+finished computing in 21.0 min
+finished writing in 0.0 min
+
+======================================================================================
+                  Resource Usage on 2026-06-18 15:54:52:
+   Job Id:             171576976.gadi-pbs
+   Project:            nf33
+   Exit Status:        0
+   Service Units:      13.85
+   NCPUs Requested:    16                  CPU Time Used: 01:42:23        
+   Memory Requested:   64.0GB                Memory Used: 59.87GB         
+   Walltime Requested: 01:00:00            Walltime Used: 00:25:58        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================
